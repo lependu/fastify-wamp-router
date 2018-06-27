@@ -18,7 +18,7 @@ $ npm i --save fastify-wamp-router
 ## Example
 ```js
 const Fastify = require('fastify')
-const fastifyWamp = require('./plugin')
+const fastifyWamp = require('fastify-wamp-router')
 
 const fastify = Fastify()
 
