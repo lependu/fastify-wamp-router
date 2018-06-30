@@ -4,6 +4,10 @@
 [![Build Status](https://travis-ci.org/lependu/fastify-wamp-router.svg?branch=master)](https://travis-ci.org/lependu/fastify-wamp-router)
 [![Greenkeeper badge](https://badges.greenkeeper.io/lependu/fastify-wamp-router.svg)](https://greenkeeper.io/)
 [![Known Vulnerabilities](https://snyk.io/test/github/lependu/fastify-wamp-router/badge.svg)](https://snyk.io/test/github/lependu/fastify-wamp-router)
+[![Coverage Status](https://coveralls.io/repos/github/lependu/fastify-wamp-router/badge.svg?branch=master)](https://coveralls.io/github/lependu/fastify-wamp-router?branch=master)
+![npm](https://img.shields.io/npm/v/fastify-wamp-router.svg)
+![npm](https://img.shields.io/npm/dm/fastify-wamp-router.svg)
+
 
 WAMP *(Web Application Messaging Protocol)* router for fastify.
 Under the hood it shares [ivaylopivanov/wamp-server](https://github.com/ivaylopivanov/wamp-server) instance,
