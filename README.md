@@ -11,7 +11,8 @@
 
 WAMP *(Web Application Messaging Protocol)* router for fastify.
 Under the hood it shares [ivaylopivanov/wamp-server](https://github.com/ivaylopivanov/wamp-server) instance,
-which implements [Basic Profife](ivaylopivanov/wamp-server) following [WAMP](https://tools.ietf.org/html/draft-oberstet-hybi-tavendo-wamp-02) standards.
+which implements [Basic Profife](https://tools.ietf.org/html/draft-oberstet-hybi-tavendo-wamp-02#page-7)
+following [WAMP](https://tools.ietf.org/html/draft-oberstet-hybi-tavendo-wamp-02) standards.
 The options that you pass to `register` will be passed to the `wamp-server`.
 
 ## Install
