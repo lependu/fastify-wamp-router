@@ -35,6 +35,6 @@
   },
   "dependencies": {
     "fastify-plugin": "^1.1.3",
-    "wamp-server": "0.0.8"
+    "wamp-server": "0.0.9"
   }
 }
