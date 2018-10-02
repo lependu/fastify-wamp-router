@@ -1,6 +1,6 @@
 {
   "name": "fastify-wamp-router",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Web Application Messaging Protocol router for fastify",
   "main": "plugin.js",
   "scripts": {
