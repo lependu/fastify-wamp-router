@@ -31,10 +31,15 @@
   "devDependencies": {
     "fastify": "^1.12.1",
     "standard": "^12.0.0",
-    "tap": "^13.0.0"
+    "tap": "^12.7.0"
   },
   "dependencies": {
     "fastify-plugin": "^1.2.1",
     "wamp-server": "0.0.9"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "tap"
+    ]
   }
 }
