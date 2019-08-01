@@ -15,6 +15,8 @@ which implements [Basic Profife](https://tools.ietf.org/html/draft-oberstet-hybi
 following [WAMP](https://tools.ietf.org/html/draft-oberstet-hybi-tavendo-wamp-02) standards.
 The options that you pass to `register` will be passed to the `wamp-server`.
 
+> :warning: Please, bear in mind, that `wamp-server` depends on `ws@6.x` which requires `>=node@7.5`.
+
 ## Install
 ```
 $ npm i --save fastify-wamp-router 

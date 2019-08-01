@@ -3,6 +3,9 @@
   "version": "0.2.0",
   "description": "Web Application Messaging Protocol router for fastify",
   "main": "plugin.js",
+  "engines": {
+    "node": ">=7.5.0"
+  },
   "scripts": {
     "coverage": "tap test.js --cov --no-browser --coverage-report html",
     "lint": "standard --fix",
