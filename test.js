@@ -15,7 +15,7 @@ test('Registers wampRouter | default options', t => {
     .register(fastifyWamp)
     .ready(err => {
       t.error(err)
-      t.ok(fastify.hasOwnProperty('wampRouter'))
+      t.ok(fastify.hasDecorator('wampRouter'))
 
       const { wampRouter: { options, port } } = fastify
 
@@ -35,7 +35,7 @@ test('Registers wampRouter | custom options', t => {
     .register(fastifyWamp, routerOpts)
     .ready(err => {
       t.error(err)
-      t.ok(fastify.hasOwnProperty('wampRouter'))
+      t.ok(fastify.hasDecorator('wampRouter'))
 
       const { wampRouter: { options, port } } = fastify
 
