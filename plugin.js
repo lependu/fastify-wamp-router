@@ -25,6 +25,6 @@ function close (fastify, done) {
 }
 
 module.exports = fp(fastifyWamp, {
-  fastify: '>=1.x',
+  fastify: '>=2.x',
   name: 'fastify-wamp-router'
 })
