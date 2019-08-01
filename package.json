@@ -30,11 +30,11 @@
   "homepage": "https://github.com/lependu/fastify-wamp-router#readme",
   "devDependencies": {
     "fastify": "^1.14.6",
-    "standard": "^12.0.0",
+    "standard": "^13.1.0",
     "tap": "^12.7.0"
   },
   "dependencies": {
-    "fastify-plugin": "^1.2.1",
+    "fastify-plugin": "^1.6.0",
     "wamp-server": "0.0.9"
   },
   "greenkeeper": {
