@@ -15,7 +15,14 @@ which implements [Basic Profife](https://tools.ietf.org/html/draft-oberstet-hybi
 following [WAMP](https://tools.ietf.org/html/draft-oberstet-hybi-tavendo-wamp-02) standards.
 The options that you pass to `register` will be passed to the `wamp-server`.
 
+## Versions
+
 > :warning: Please, bear in mind, that `wamp-server` depends on `ws@6.x` which requires `>=node@7.5`.
+
+| version | branch | fastify | wapm-server | ws | end of support |
+|---------|--------|---------|-------------|----|----------------|  
+|`0.3.x`  | [0.3.x](https://github.com/lependu/fastify-wamp-router/tree/0.3.x) | [1.x](https://github.com/fastify/fastify/tree/1.x) | [0.0.9](https://github.com/ivaylopivanov/wamp-server) | [6.x](https://github.com/websockets/ws) | 2019-09-01 |
+|`>=0.4.0`| [master](https://github.com/lependu/fastify-wamp-router) | [2.x](https://github.com/fastify/fastify) | [0.0.9](https://github.com/ivaylopivanov/wamp-server) | [6.x](https://github.com/websockets/ws) |      TBD     |
 
 ## Install
 ```
